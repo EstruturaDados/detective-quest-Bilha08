@@ -47,6 +47,13 @@ int main()
 
     menu(raizMansao, &pistasEncontradas);
 
+    if (pistasEncontradas == NULL) 
+    {
+        printf("\nNenhuma pista foi encontrada.")
+        liberarArvore(raizMansao);
+        return 0;
+    }
+
     printf("\n===== Pistas Encontradas =====\n");
     mostrarPistasBST(pistasEncontradas);
 
