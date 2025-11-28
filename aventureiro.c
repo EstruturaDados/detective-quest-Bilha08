@@ -49,7 +49,7 @@ int main()
 
     if (pistasEncontradas == NULL) 
     {
-        printf("\nNenhuma pista foi encontrada.")
+        printf("\nNenhuma pista foi encontrada.");
         liberarArvore(raizMansao);
         return 0;
     }
